@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 27px !important;
+}
+button:hover{
+    background-color: aqua !important;
+    color: black !important;
+}
+button{
+    border: none;
+}
+canvas{
+    animation-name: ex;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: dotted;
+    margin-top: 50px;
+}
+@keyframes ex{
+    from{box-shadow: 1px 1px 38px cyan;}
+    to{box-shadow: 2px 2px 40px rgb(101, 203, 224);}
+}
